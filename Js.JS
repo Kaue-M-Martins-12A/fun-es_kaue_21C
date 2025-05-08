@@ -69,3 +69,9 @@ document.querySelector("button").addEventListener("click", () => {
   }) 
   
   
+  //EXEMPLO 8 arrow functions com variáveis
+
+let somar = (valor1, valor2) => valor1 + valor2 
+let resultadoSoma = somar (20, 30) 
+
+alert(resultadoSoma)

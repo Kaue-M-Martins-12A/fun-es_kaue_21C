@@ -55,4 +55,10 @@ function parOuImpar(numero) {
   alert(`O número 10 é ${resultado1}`) 
   alert(`O número 15 e ${resultado2}`)
   
+  //EXEMPLO 6 funções anónimas 
+
+document.querySelector("button").addEventListener("click", function() { 
+    alert("Clicou no botão") 
+  }) 
+  
   

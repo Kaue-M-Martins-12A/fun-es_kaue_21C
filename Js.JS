@@ -19,4 +19,11 @@ function somar (valor1, valor2) {
 
 somar (30, 40)
 
+//EXEMPLO 3 parâmetros de tipos diferentes 
+
+function mensagemPessoal (nome, cargo, anosTrabalhados) { 
+    alert(`Seja bem-vindo(a) ${cargo} ${nome}. Estamos felizes por ter voce trabalhando conosco há ${anosTrabalhados} anos. `) 
+} 
+mensagemPessoal ("Dougras", "Gerente", 10) 
+mensagemPessoal("Marcio Marçal ", "The Best Teacher Of All Times (TB TOAT)", 50)
 

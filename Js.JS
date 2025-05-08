@@ -62,3 +62,10 @@ document.querySelector("button").addEventListener("click", function() {
   }) 
   
   
+//EXEMPLO 7 arrow functions 
+
+document.querySelector("button").addEventListener("click", () => {
+    alert("Clicou no botão") 
+  }) 
+  
+  

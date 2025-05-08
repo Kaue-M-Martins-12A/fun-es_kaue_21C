@@ -41,3 +41,18 @@ function somarEDevolver(numero1, numero2, numero3) {
     alert(soma1) 
     alert(soma2)
     
+    //EXEMPLO 5 if sem o else 
+
+function parOuImpar(numero) { 
+    if (numero % 2 === 0) { 
+      return "PAR" 
+  } 
+    return "IMPAR" 
+  } 
+  let resultado1 = parOuImpar(10) 
+  let resultado2 = parOuImper(15) 
+  
+  alert(`O número 10 é ${resultado1}`) 
+  alert(`O número 15 e ${resultado2}`)
+  
+  

@@ -10,3 +10,13 @@ function mensagem() {
 }
 
 mensagem() 
+
+//EXEMPLO 2 função com parâmetros 
+
+function somar (valor1, valor2) { 
+    alert(valor1 + valor2) 
+}
+
+somar (30, 40)
+
+

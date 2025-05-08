@@ -33,3 +33,11 @@ function somarEDevolver(numero1, numero2, numero3) {
     let resultado = numero1 + numero2 + numero3 
     return resultado 
     }
+    
+    // guardar numa variável ou guardar em qualquer lugar no código 
+    let soma1 = somarEDevolver(10, 11, 12) 
+    let soma2 = somarEDevolver (30, 40, 50) 
+    
+    alert(soma1) 
+    alert(soma2)
+    

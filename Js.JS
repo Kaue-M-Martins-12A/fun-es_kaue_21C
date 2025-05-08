@@ -27,3 +27,9 @@ function mensagemPessoal (nome, cargo, anosTrabalhados) {
 mensagemPessoal ("Dougras", "Gerente", 10) 
 mensagemPessoal("Marcio Marçal ", "The Best Teacher Of All Times (TB TOAT)", 50)
 
+//EXEMPLO 4 o return nas funções
+
+function somarEDevolver(numero1, numero2, numero3) { 
+    let resultado = numero1 + numero2 + numero3 
+    return resultado 
+    }
